@@ -1,4 +1,5 @@
 using AngEcommerceApi.Data;
+using AngEcommerceApi.Inteface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,7 +31,7 @@ namespace AngEcommerceApi
         {
 
             services.AddControllers();
-
+            services.AddScoped<IProductRepository, ProductRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AngEcommerceApi", Version = "v1" });
@@ -38,7 +39,7 @@ namespace AngEcommerceApi
 
             services.AddDbContext<MyAppContext>(options =>
             //options.UseSqlite("Data Source=TestEcommDb"));
-            options.UseSqlServer("Data Source=ICT-56;Database=TestEcommDb;Persist security info=True;Integrated Security=SSPI"));
+            options.UseSqlServer("Data Source=ICT-56;Database=MyTestEcommDb;Persist security info=True;Integrated Security=SSPI"));
 
 
 

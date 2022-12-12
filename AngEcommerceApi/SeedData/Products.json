@@ -1,0 +1,40 @@
+[
+  {
+    "Name": "Peter Obi",
+    "Description": "Hello Nigeria vote me 2023",
+    "Price": 300,
+    "PictureUrl": "images/products/google.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+
+  },
+
+  {
+    "Name": "Peter Obi",
+    "Description": "Hello Nigeria vote me 2023",
+    "Price": 300,
+    "PictureUrl": "images/products/google.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+
+  },
+  {
+    "Name": "Peter Obi",
+    "Description": "Hello Nigeria vote me 2023",
+    "Price": 300,
+    "PictureUrl": "images/products/google.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+
+  },
+  {
+    "Name": "Peter Obi",
+    "Description": "Hello Nigeria vote me 2023",
+    "Price": 300,
+    "PictureUrl": "images/products/google.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+
+  }
+
+]

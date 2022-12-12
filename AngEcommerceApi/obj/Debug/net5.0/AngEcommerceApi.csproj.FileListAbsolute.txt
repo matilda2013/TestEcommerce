@@ -41,7 +41,6 @@ C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\obj\Debug\net5.0\AngEcommerceApi.csprojAssemblyReference.cache
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\obj\Debug\net5.0\AngEcommerceApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\obj\Debug\net5.0\AngEcommerceApi.AssemblyInfoInputs.cache
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\obj\Debug\net5.0\AngEcommerceApi.AssemblyInfo.cs
@@ -84,3 +83,7 @@ C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\obj\Debug\net5.0\AngEcommerceApi.csprojAssemblyReference.cache
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\SeedData\Brand.json
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\SeedData\Products.json
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\SeedData\Types.json
