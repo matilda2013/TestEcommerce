@@ -1,4 +1,5 @@
 using AngEcommerceApi.Data;
+using AngEcommerceApi.Helper;
 using AngEcommerceApi.Inteface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,7 +32,9 @@ namespace AngEcommerceApi
         {
 
             services.AddControllers();
+            services.AddScoped(typeof(IGenericRepository<>) , typeof(GenericRepository<>));
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddAutoMapper(typeof(MappingProfiles));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AngEcommerceApi", Version = "v1" });
@@ -58,6 +61,7 @@ namespace AngEcommerceApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseAuthorization();
 

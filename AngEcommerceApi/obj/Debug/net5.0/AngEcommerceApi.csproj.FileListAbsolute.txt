@@ -87,3 +87,9 @@ C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\obj\Debug\
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\SeedData\Brand.json
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\SeedData\Products.json
 C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\SeedData\Types.json
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\olulanu.olaniyi\source\repos\AngEcommerceApi\AngEcommerceApi\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
