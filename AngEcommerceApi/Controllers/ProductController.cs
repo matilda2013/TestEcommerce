@@ -1,4 +1,5 @@
 ﻿using AngEcommerceApi.Data;
+using AngEcommerceApi.Helper;
 using AngEcommerceApi.Inteface;
 using AngEcommerceApi.Model;
 using AngEcommerceApi.Model.DTOs;
@@ -13,9 +14,7 @@ using System.Threading.Tasks;
 
 namespace AngEcommerceApi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductController : BaseApiController
     {
         //private readonly IProductRepository _repo;
         //public ProductController(IProductRepository repo)
@@ -76,12 +75,17 @@ namespace AngEcommerceApi.Controllers
 
 
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(ApiResponse),StatusCodes.Status404NotFound)]
         public async Task<ActionResult<ProductDTO>> GetProductbyIdAsync(int id)
         {
             var spec = new ProductWithTypeandBrandSpec(id);
 
             var product = await _Productrepo.GetEntityWithSpec(spec);
+            
+            if(product == null) { return NotFound(new ApiResponse(404)); }
+            
             return _mapper.Map<Product, ProductDTO>(product);
+          
             //return new ProductDTO
             //{
             //    Id = product.Id,
